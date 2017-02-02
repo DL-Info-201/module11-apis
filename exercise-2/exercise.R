@@ -1,11 +1,12 @@
 ### Exercise 2 ###
 
 # Load the httr and jsonlite libraries for accessing data
-
+library("httr")
+library("jsonlite")
 
 # Create a `base.uri` variable that holds the base uri. You wil then paste endpoints to this base.
 
-
+  base.uri <- ""
 
 ## As you may have noticed, it often takes multiple queries to retrieve the desired information.
 ## This is a perfect situation in which writing a function will allow you to better structure your
